@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Test') {
+      steps {
+        echo 'Thanks for your test'
+      }
+    }
+
   }
 }
